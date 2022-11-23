@@ -1,0 +1,106 @@
+span {
+    color: red;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.inf_cardapio {
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+
+.box_btns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    background-image: url(./imagem/sanduiche-sanduiches.png);
+    background-repeat: no-repeat;
+    background-position:top center;
+    height: 100px;
+}
+
+.btn_lanches {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 7px;
+    background-color: rgba(255, 0, 0, 0.651);
+}
+
+/* Menu Lanches */
+
+.box_products {
+    justify-content: center;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px 0px;
+}
+
+.box_products h5 {
+    border-bottom: 1px solid black;
+    text-align: justify;
+    font-style: italic;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.box_products h4 {
+    margin: 0px;
+}
+
+.product {
+    display: flex;
+}
+
+.product_name {
+    text-align: left;
+    width: 95%;
+}
+
+.product_name, .product_price {
+    color: red;
+    font-style: italic;
+    height: 2px;
+}
+
+
+
+@media(max-width: 600px) {
+    .box_btns {
+        background-size: 60%;
+    }
+}
+
+/* Sanduiche sirio */
+
+.sanduiche_sirio h2 {
+    font-style: italic;
+    font-size: 30px;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+/* Molho ervas */
+.molho {
+    background-color: lightgray;
+    padding: 10px 0px;
+    margin: 30px 0px;
+}
+
+.molho h4 {
+    font-style: italic;
+    color: red;
+}
+
+
+

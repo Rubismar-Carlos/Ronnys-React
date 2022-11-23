@@ -1,0 +1,136 @@
+.inf_cardapio {
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.box_btns {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    background-image: url('./imagem/logo\ -\ bebidas.png');
+    background-repeat: no-repeat;
+    background-position:top center;
+    height: 110px;
+}
+
+button h4 {
+    color: #fff;
+}
+
+.btn_lanches {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 7px;
+    background-color: rgba(255, 0, 0, 0.651);
+}
+
+/* Bebidas */
+
+.menu_bebidas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.menu_bebidas h2 {
+    color: red;
+    font-style: italic;
+}
+
+.box_bebidas {
+    width: 200px;
+}
+
+.bebidas {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: left;
+}
+
+.bebidas h4 {
+    margin: 0px;
+    padding: 3px 0px;
+    color: rgba(0, 0, 0, 0.801);
+    font-style: italic;
+}
+
+.price_bebidas h4{
+    padding-bottom: 22px;
+}
+
+.bebidas p {
+    color: red;
+}
+
+/* Acai, Ovomaltine e Milkshake de Limao */
+.outras_bebidas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightgray;
+    margin: 30px 0px;
+    padding: 20px 0px;
+    gap: 30px;
+}
+
+.box_outras_bebidas {
+    width: 300px;  
+    border-bottom: 3px solid red;
+    box-shadow: 0px 0px 7px -5px black;
+}
+
+.box_outras_bebidas:hover {
+    border-right: 3px solid yellow;
+    border-top: 3px solid yellow;
+    border-left: 3px solid yellow;
+    background-color: rgba(128, 128, 128, 0.514);
+    padding-bottom: 5px;
+    border-radius: 15px 15px 0px 0px;
+    transition: .5s;
+}
+
+.outras_bebidas h2 {
+    font-style: italic;
+    color: red;
+}
+
+.outras_bebidas h4 {
+    color: red;
+    font-style: italic;
+}
+
+/* Refrigerantes */
+
+.refrigerantes h2 {
+    color: red;
+    font-style: italic;
+}
+
+.refri_product {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.refri_product h4 {
+    margin: 0px;
+    padding: 5px 0px;
+    color: rgba(0, 0, 0, 0.801);
+    font-style: italic;
+}
+
+.refri_product p {
+    color: red;
+}

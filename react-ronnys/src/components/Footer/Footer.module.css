@@ -1,0 +1,36 @@
+.lojas {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ec0404f1;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px;
+    text-align: left;
+}
+
+.box_lojas {
+    width: 300px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid yellow;
+}
+
+.box_contato {
+    display: flex;
+    justify-content: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+.box_contato img {
+    margin-bottom: 3px;
+}
+
+.box_lojas p {
+    color: #fff;
+    padding-top: 8px;
+}
+
+.box_lojas h4 {
+    color: yellow;
+}
